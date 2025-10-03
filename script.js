@@ -71,7 +71,7 @@ function borrarComentarios() { // Función para borrar todos los comentarios
 }
 // - - - - BLOQUE DE SEGURIDAD - - - -
 lett pass = promt("Introduce la contraseña para acceder al blog:");
-const passwordCorrecta = "54321";
+const passwordCorrecta = "678910";
 
 if (pass !== passwordCorrecta) {
   document.body.innerHTML = "<h1>Acceso denegado ❌</h1>";
